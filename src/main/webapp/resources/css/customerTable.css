@@ -1,0 +1,90 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table_container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.customer_table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 600px;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.customer_table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.customer_table thead tr th:not(:first-of-type) {
+    min-width: 200px;
+}
+
+.customer_table th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.customer_table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.customer_table tbody tr:nth-of-type(even) {
+     background-color: #f3f3f3;
+}
+
+.customer_table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.table_button {
+    background: none;
+    border: 2px solid #009879;
+    border-radius: 5px;
+    color: #009879;
+    font-weight: bold;
+    height: 50px;
+    width: 20%;
+    transition: .4s;
+}
+
+.table_button:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 30px 0 30px 0;
+    background-color: rgba(0, 101, 69, 0.8);
+    color: #ffffff;
+}
+
+.table_button:focus {
+    outline: none;
+}
+
+tbody td a:link {
+    font-weight: bold;
+    color: #009879;
+    font-size: 19px;
+    text-decoration: none;
+    transition: .1s;
+}
+
+tbody td a:visited {
+    color: #009879;
+}
+
+tbody td a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 1px rgba(0, 167, 121, 0.5);
+}
+
+tbody td a:active {
+    color: #009879;
+}

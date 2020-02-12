@@ -1,0 +1,69 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+.add_customer_box {
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #009879;
+    padding: 70px 30px;
+    border-radius: 5px;
+}
+
+.customer_fields {
+  margin-top: 70px;
+}
+
+.add_customer_box h1 {
+    text-align: center;
+}
+
+.add_customer_box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.add_customer_box input:not(:last-of-type){
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    height: 40px;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #009879 !important; /* Цвет фона */
+    -webkit-text-fill-color: #ffffff !important; /* цвет текста */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form_submit_button {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: none;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    height: 10%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .4s background-color;
+}
+
+.form_submit_button:focus {
+    outline: none;
+}
+
+.form_submit_button:hover {
+    background-color: #464646;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
